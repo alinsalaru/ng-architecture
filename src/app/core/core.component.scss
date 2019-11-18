@@ -1,0 +1,13 @@
+app-header {
+  display: flex;
+  height: 100px;
+  background: fade-out(grey, 0.5);
+  margin: 20px;
+}
+
+app-content {
+  display: flex;
+  height: 500px;
+  background: fade-out(darkgrey, 0.5);
+  margin: 20px;
+}
