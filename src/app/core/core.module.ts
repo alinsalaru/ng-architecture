@@ -6,6 +6,9 @@ import { CoreComponent } from './core.component';
   declarations: [CoreComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    CoreComponent
   ]
 })
 export class CoreModule { }
