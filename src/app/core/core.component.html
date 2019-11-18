@@ -1,7 +1,6 @@
 <div>
   <div>
     <app-header (loginChanged)="loginHasChanged($event)"></app-header>
-    <p>State: {{isLoggedIn}}</p>
-    <app-content></app-content>
+    <app-content [isLoggedInState]="isLoggedIn"></app-content>
   </div>
 </div>
