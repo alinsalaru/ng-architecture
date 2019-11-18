@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./core.component.scss']
 })
 export class CoreComponent implements OnInit {
+  isLoggedIn = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  loginHasChanged($event) {
+    this.isLoggedIn = !this.isLoggedIn
   }
 
 }
